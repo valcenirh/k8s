@@ -11,6 +11,8 @@ spec:
     targetRevision: master
     directory:
       recurse: true
+  syncPolicy:
+    automated: {}    
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
