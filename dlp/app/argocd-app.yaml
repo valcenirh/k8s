@@ -9,6 +9,8 @@ spec:
     repoURL: https://github.com/valcenirh/k8s.git
     path: dlp
     targetRevision: master
+  syncPolicy:
+    automated: {}  
     directory:
       recurse: true
   destination:
