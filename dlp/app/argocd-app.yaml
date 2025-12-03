@@ -9,10 +9,10 @@ spec:
     repoURL: https://github.com/valcenirh/k8s.git
     path: dlp
     targetRevision: master
-  directory:
-    recurse: true
-  syncPolicy:
-    automated: {}      
+    directory:
+      recurse: true
+    syncPolicy:
+      automated: {}      
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
