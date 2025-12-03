@@ -10,7 +10,7 @@ spec:
     path: dlp
     targetRevision: master
     directory:
-      recurse: true
+    recurse: true
     syncPolicy:
       automated: {}      
   destination:
